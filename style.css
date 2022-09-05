@@ -654,6 +654,10 @@ a {
     color: #575757!important;
 }
 
+.fa.fa-chevron-up{
+    color:white;
+}
+
 .container {
     max-width: 1000px;
 }
