@@ -326,6 +326,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
