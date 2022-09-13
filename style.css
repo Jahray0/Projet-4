@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 a:hover {
@@ -463,7 +463,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 .btn-rd {
@@ -683,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size:15px;
 }
 
 .tight-width-whitespace {
@@ -790,7 +790,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #aa21bd!important;
     color: #FFFFFF!important;
 }
 
@@ -837,6 +837,13 @@ h4 {
 .fa.fa-instagram.icon-md{
     color: white;
 }
+
+.col-sm-3 .text-center a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
 
 
 @media (max-width: 1024px) {
@@ -944,6 +951,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        flex-direction: column;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
