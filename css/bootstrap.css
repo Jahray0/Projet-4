@@ -54,10 +54,6 @@ a {
     background-color: transparent
 }
 
-a:active,
-a:hover {
-    /*outline: 0*/
-}
 
 abbr[title] {
     border-bottom: 1px dotted
@@ -4296,9 +4292,6 @@ tbody.collapse.in {
     position: relative
 }
 
-.dropdown-toggle:focus {
-    /*outline: 0*/
-}
 
 .dropdown-menu {
     position: absolute;
@@ -4380,9 +4373,6 @@ tbody.collapse.in {
     display: block
 }
 
-.open>a {
-    /*outline: 0*/
-}
 
 .dropdown-menu-right {
     right: 0;
@@ -4528,10 +4518,6 @@ tbody.collapse.in {
     border-bottom-left-radius: 0
 }
 
-.btn-group .dropdown-toggle:active,
-.btn-group.open .dropdown-toggle {
-    /*outline: 0*/
-}
 
 .btn-group>.btn+.dropdown-toggle {
     padding-right: 8px;
@@ -5223,9 +5209,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-radius: 4px
 }
 
-.navbar-toggle:focus {
-    /*outline: 0*/
-}
 
 .navbar-toggle .icon-bar {
     display: block;
